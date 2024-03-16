@@ -1,0 +1,58 @@
+
+*{
+    font-family: "Lobster" Verdana, Geneva, Tahoma, sans-serif;
+    padding:0;
+    margin:0;
+}
+caption{
+    font-style: italic;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+table, th, td{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    margin: 5px;
+    text-align: center;
+    width: 70%;
+}
+th:nth-child(3){
+    text-align: center;
+    padding: 10px;
+}
+td{
+    font-style: italic;
+    color: white;
+}
+#a1,#a2{
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+    background-color: #8f0505;
+}
+.wht{
+    font-style: italic;
+    font-weight: 900;
+    border:1px 1px solid;
+}
+.rd{
+    vertical-align: text-top;
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+    background-color: #8f0505;
+}
+.pnk{
+    vertical-align: text-top;
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+    background-color: #f77187;
+}
+#b1, #b2{
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+    background-color: #f77187;
+}
