@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class_Work Palindrom</title>
+</head>
+<body>
+    <p>Check Palindrom String.</p>
+    <button id="btn">Check</button>
+    <script>
+        let str=prompt("String :");
+        function Palindrom(){
+            const arr=str;
+            const array=arr.split('').reverse().join('');
+            if(array === arr){
+                document.write("Palindrom");
+            }
+            else{
+                document.write("Not");
+            }
+        }
+        document.getElementById('btn').onclick=Palindrom;
+    </script>
+</body>
+</html>

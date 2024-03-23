@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basic</title>
+</head>
+<body>
+    <h2>What Can JavaScript Do? </h2>
+    <p>JavaScript can change HTML attribute values. </p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an
+    image.</p>
+    <button onclick="document.getElementById('id1').src='image/on.jpeg'">On</button>
+    <img id="id1" src="image/off.jpeg" alt="bulb" style="width:100px">
+    <button onclick="document.getElementById('id1').src='image/off.jpeg'">Off</button>
+    <h2>JavaScript if .. else</h2>
+    <p>A time−based greeting:</p>
+    <p id="demo"></p>
+
+    <script>
+        const hour = new Date().getHours();
+        document.write("Time is "+hour);
+        let hello;
+        if(hour<18){
+            hello="Good Day Guys!";
+        }else{
+            hello="Good Evening Boys!";
+        }
+        document.getElementById('demo').innerHTML=hello;
+    </script>
+</body>
+</html>

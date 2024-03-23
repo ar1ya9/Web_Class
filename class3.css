@@ -16,24 +16,50 @@ h1 {
 p {
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0c86f1;
     font-size: 20px;
+    border: 5px double blueviolet;
+    border-bottom-right-radius: 20%;
 }
 
 #hd1 {
     color: green;
     text-align: center;
 }
+#hd1:hover{
+    cursor: pointer;
+    color: black;
+}
 
 #hd2 {
     color: blue;
     text-align: center;
 }
+#hd2:hover{
+    cursor: pointer;
+    color: rgb(248, 2, 2);
+}
 
 .cl {
-    color: rgb(255, 47, 134);
+    color: #ff2f86;
+    border: 3px dashed #1e0a32cc;
+    border-radius: 30%;
+}
+table{
+    border: 2px solid red;
 }
 
 a {
     text-decoration: none;
     color: brown;
+}
+a:hover{
+    color: green;
+    cursor: col-resize;
+}
+
+a:hover::before{
+    content: '';
+    padding: 6px;
+    transform: rotate(360);
 }
